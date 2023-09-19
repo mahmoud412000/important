@@ -1,0 +1,23 @@
+#include "util/delay.h"
+#include "../LIB/BIT_MATH.h"
+#include"../LIB/STD_TYPES.h"
+#include"../MCAL/DIO/MDIO_config.h"
+#include"../MCAL/DIO/MDIO_interface.h"
+#include"../MCAL/DIO/MDIO_registers.h"
+#include"../MCAL/DIO/MDIO_private.h"
+
+
+
+
+void  main (void)
+
+{
+	LCD_void_SendString('m');
+	LCD_void_SendString('a');
+	LCD_void_SendString('h');
+	LCD_void_SendString('m');
+	LCD_void_SendString('o');
+	LCD_void_SendString('u');
+	LCD_void_SendString('d');
+
+}

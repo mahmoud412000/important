@@ -1,0 +1,13 @@
+23:32:28 **** Incremental Build of configuration Debug for project dio ****
+make all 
+'Building file: ../DIO/DIO_program.c'
+'Invoking: AVR Compiler'
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO/DIO_program.d" -MT"DIO/DIO_program.o" -c -o "DIO/DIO_program.o" "../DIO/DIO_program.c"
+In file included from ../DIO/DIO_program.c:7:
+../DIO/../library/STD_TYPES.h:25:26: warning: extra tokens at end of #endif directive
+../DIO/DIO_program.c:13: error: expected declaration specifiers or '...' before 'uint8copy_DIO_uint8Port8Direction'
+make: *** [DIO/DIO_program.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+23:32:29 Build Failed. 2 errors, 1 warnings. (took 556ms)
+
